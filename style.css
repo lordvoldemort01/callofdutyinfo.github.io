@@ -1,0 +1,610 @@
+/*-------------------------Global Css---------------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --primary-color:#ffe93c;
+    --background-color:#000;
+    --text-color:#fff;
+}
+
+/*----------------------------Navbar Start----------------------*/
+
+.container ul{
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+
+.container .logo{
+    height: 60px;
+    width: 150px;
+}
+
+li{
+    padding: 0 20px 0 0;
+    margin-top: 25px;
+    font-weight: 200;
+}
+
+li:first-child{
+    margin: 10px 0;
+}
+
+header{
+    background: black;
+    height: 80px;
+    max-width: auto;
+    position:sticky;
+}
+
+.container li a{
+    color: white;
+    text-decoration: none;
+}
+
+.container li a:hover{
+    color:var(--primary-color)
+}
+
+/*------------------------------------------Navbar End----------------------------------------*/
+
+/*----------------------------------Video Container Start-----------------------------------*/
+
+
+
+.video-container{
+    max-height: 500px;
+    width: 100%;
+}
+
+
+video{
+    object-fit:cover;
+    height: 500px;
+    width:100%;
+}
+
+.video-container .logov2{
+    top: 250px;
+    left: 80px;
+    position:absolute;
+    height: 6rem;
+}
+
+.video-container .video-text{
+    color: var(--primary-color);
+    font-weight: 300;
+    position: absolute;
+    top: 350px;
+    left: 65px;
+    text-transform: uppercase;
+}
+
+.video-container .trailer-btn{
+    background: var(--primary-color);
+    width: 250px;
+    color: var(--background-color);
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 200;
+    position: absolute;
+    text-decoration: none;
+    top: 420px;
+    left: 80px;
+    transition: 0.3s;
+}
+
+.video-container .trailer-btn:hover{
+    background: var(--background-color);
+    color: var(--primary-color);
+    border:1.5px solid var(--primary-color);
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.video-container .google-store{
+    height: 60px;
+    width: auto;
+    text-decoration: none;
+    padding-right: 20px;
+    position: absolute;
+    top:420px;
+    left: 1100px;
+}
+
+.video-container .apple-store{
+    height: 60px;
+    width: auto;
+    text-decoration: none;
+    padding-right: 20px;
+    position: absolute;
+    top:420px;
+    left: 900px;
+}
+
+/*-------------------------------------end video container-----------------------------*/
+
+/*-----------------------------Start Game Modes-------------------------------------*/
+
+.game-modes{
+    background: var(--background-color);
+    height: 190px;
+    max-width: 100%;
+    color: var(--primary-color);
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 47px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3rem;
+}
+
+.game-modes p{
+    color: white;
+    text-transform: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+}
+
+.game-modes-images{
+    height: 400px;
+    width: 100%;
+}
+
+.game-modes-images img{
+    height: 400px;
+    width: 50%;
+    float: left;
+}
+
+.game-modes-images .image-text{
+    position: absolute;
+    color: var(--primary-color);
+    bottom: -410px;
+    left: 800px;
+    font-size: 1.8rem;
+    font-family: 'Oswald',sans-serif;
+}
+
+.game-modes-images .image-text p{
+    color: var(--text-color);
+}
+
+/*---------------------------------End Game Modes-----------------------------*/
+
+/*--------------------------Start Multiplayer Maps Section------------------------*/
+
+.Multiplayer-Maps{
+    background: var(--background-color);
+    height: 190px;
+    max-width: 100%;
+    color: var(--primary-color);
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 47px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3rem;
+}
+
+.Multiplayer-Maps p{
+    color: white;
+    text-transform: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+}
+
+
+.image-container{
+  height: 500px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.image-container img{
+    height: 250px;
+    width: 25%;
+    float: left;
+    border: 1px solid black;
+}
+
+/*----------------------------End Multiplayer Section------------------------------*/
+
+/*----------------------------Start Character Section---------------------------*/
+
+.character{
+    background: var(--background-color);
+    height: 190px;
+    max-width: 100%;
+    color: var(--primary-color);
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 47px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3rem;
+}
+
+.character p{
+    color: white;
+    text-transform: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+}
+
+.character-container{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex: 1;
+}
+
+.character-container .price{
+    height: 600px;
+    width: 20%;
+    transition: width 1s ease;
+}
+
+.character-container .price img{
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.character-container .alex{
+    height: 600px;
+    width: 20%;
+    transition: width 1s ease;
+}   
+
+.character-container .alex img{
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.character-container .david{
+    height: 600px;
+    width: 20%;
+    transition: width 1s ease;
+} 
+
+.character-container .david img{
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.character-container .ghost{
+    height: 600px;
+    width: 20%;
+    transition: width 1s ease;
+} 
+
+.character-container .ghost img{
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.character-container .merrick{
+    height: 600px;
+    width: 20%;
+    transition: width 1s ease;
+} 
+
+.character-container .merrick img{
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.character-container .price p{
+    position: absolute;
+    color: var(--text-color);
+    top: 2450px;
+    display: none;
+    width: 20%;
+    left: 35px;
+    animation-name: paragraph-price;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.character-container .alex p{
+    position: absolute;
+    color: var(--text-color);
+    top: 2450px;
+    display: none;
+    width: 20%;
+    left: 295px;
+    animation-name: paragraph-alex;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.character-container .david p{
+    position: absolute;
+    color: var(--text-color);
+    top: 2450px;
+    display: none;
+    width: 20%;
+    left: 555px;
+    animation-name: paragraph-david;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.character-container .ghost p{
+    position: absolute;
+    color: var(--text-color);
+    top: 2450px;
+    display: none;
+    width: 20%;
+    left: 815px;
+    animation-name: paragraph-ghost;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.character-container .merrick p{
+    position: absolute;
+    color: var(--text-color);
+    top: 2450px;
+    display: none;
+    width: 20%;
+    left: 1080px;
+    animation-name: paragraph-merrick;
+    animation-duration: 1s;
+    animation-fill-mode:both;
+}
+
+@keyframes paragraph-price{
+    from{left: 0;
+    opacity: 0;}
+    to{left: 35px;
+    opacity: 1;}
+}
+
+@keyframes paragraph-alex{
+    from{left: 295px;
+    opacity: 0;}
+    to{left: 305px;
+    opacity: 1;}
+}
+
+@keyframes paragraph-david{
+    from{left: 555px;
+    opacity: 0;}
+    to{left: 565px;
+    opacity: 1;}
+}
+
+@keyframes paragraph-ghost{
+    from{left: 815px;
+    opacity: 0;}
+    to{left: 825px;
+    opacity: 1;}
+}
+
+@keyframes pargraph-merrick{
+    from{left: 1080px;
+    opacity: 0;}
+    to{left: 1090px;
+    opacity: 1;}
+}
+
+/*-------------------Character Hover Section-----------------------*/
+.character-container .price:hover{
+    width: 35%;
+}
+
+.character-container .alex:hover{
+    width: 35%;
+}
+
+.character-container .david:hover{
+    width: 35%;
+}
+
+.character-container .ghost:hover{
+    width: 35%;
+}
+
+.character-container .merrick:hover{
+    width: 35%;
+}
+
+.character-container .price:hover p{
+    display: block;
+    text-align: justify;
+}
+
+.character-container .alex:hover p{
+    display: block;
+    text-align: justify;
+}
+
+.character-container .david:hover p{
+    display: block;
+    text-align: justify;
+}
+
+.character-container .ghost:hover p{
+    display: block;
+    text-align: justify;
+}
+
+.character-container .merrick:hover p{
+    display: block;
+    text-align: justify;
+}
+
+/*------------------------------End Character Section------------------------*/
+
+.main-container .banner{
+    height: 350px;
+    width: 100%;
+}
+
+.main-container .banner img{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.main-container.sub-container{
+    height: 130px;
+    width: 400px;
+}
+
+.main-container .sub-container img{
+    position: absolute;
+    top:2750px;
+    right: 120px;
+    height: 130px;
+    width: 400px;
+}
+
+
+/*-------------------------------------Start Game mode Page Section----------------------------*/
+
+.game-mode-image{
+    height: 500px;
+    width: 900px;
+    margin: 20px 250px;
+}
+
+.gamemodes li{
+    list-style: none;
+}
+
+.game-mode-container{
+    background: var(--background-color);
+    padding: 10px;
+}
+
+.game-modes-heading{
+    color:var(--primary-color);
+    text-align: center;
+}
+
+.game-mode-subheading{
+    display: inline;
+    color: var(--primary-color);
+}
+
+.gamemodes{
+    background: var(--background-color);
+    color: var(--text-color);
+}
+
+.br-map{
+    height: 200px;
+    width: 200px;
+    padding-left: 10px;
+    left: 500px;
+    
+}
+
+/*-------------------------------End Game mode Page Section-----------------------*/
+
+/*---------------------------Start Table Gun Section-------------------------------------*/
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers td:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:var(--primary-color);
+    color: rgb(0, 0, 0);
+  }
+
+  #customers td a{
+      text-decoration: none;
+      color: #000;
+  }
+
+/*--------------------------------------End Table Gun Section--------------------------------------*/
+
+
+
+
+/*-----------------------------------Footer Section------------------------------*/
+
+.footer-container{
+    height: 150px;
+    background: var(--background-color);
+    overflow: hidden;
+    border-top: 1px solid #fff;
+}
+.footer-container #age-restricted{
+    height: 100px;
+    width: 180px;
+    margin: 30px;
+}
+
+.footer-container section{
+    width: 50%;
+    float: right;
+    margin: 30px 10px;
+}
+
+.footer-container section p{
+    color: var(--text-color);
+}
+
+.footer-container section ul{
+    list-style-type: none;
+    margin: 20px 0 20px 0;
+}
+
+.footer-container section ul li{
+    display: inline;
+    color: var(--text-color);
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.footer-container section ul li:nth-child(2){
+    color: rgb(59, 89, 152);
+}
+
+.footer-container section ul li:nth-child(3){
+    color: rgb(188, 42, 141);
+}
+
+.footer-container section ul li:nth-child(4){
+    color: rgb(0, 172, 237);
+}
+
+.footer-container section ul li:nth-child(5){
+    color: rgb(187, 0, 0);
+}

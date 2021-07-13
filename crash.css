@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000;
+}
+
+#map-name{
+    text-align: center;
+    color:var(--primary-color);
+}
+
+.map-profile h3{
+    color: var(--text-color);
+    padding-left: 20px;
+    display: inline;
+}
+
+.map-profile p{
+    color: var(--text-color);
+    padding: 0 20px;
+}
+
+.map-profile ul{
+    list-style-type: none;
+    color: #fff;
+    padding: 0 20px;
+}
+
+.map-profile li::before{
+    content: "\2022";
+  color: #fff;
+  font-weight:bolder;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
