@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "aws-mcp-server": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@aws-mcp/server"
+      ]
+    }
+  }
+}

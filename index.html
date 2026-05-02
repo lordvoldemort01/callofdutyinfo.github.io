@@ -7,6 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Call of Duty Info Site</title>
     <link rel="codm icon" href="codm-logo.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#ffe93c">
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Call of Duty Info Site - Everything CODM">
+    <meta name="description" content="Discover the best guns, maps, and game modes in Call of Duty Mobile. Explore detailed info on AK-47, M4, and more.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://localhost:8080/">
+    <meta property="og:title" content="Call of Duty Info Site - Everything CODM">
+    <meta property="og:description" content="Discover the best guns, maps, and game modes in Call of Duty Mobile. Explore detailed info on AK-47, M4, and more.">
+    <meta property="og:image" content="codm-banner.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="http://localhost:8080/">
+    <meta property="twitter:title" content="Call of Duty Info Site - Everything CODM">
+    <meta property="twitter:description" content="Discover the best guns, maps, and game modes in Call of Duty Mobile. Explore detailed info on AK-47, M4, and more.">
+    <meta property="twitter:image" content="codm-banner.jpg">
+
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500;1,700&display=swap"
@@ -74,14 +95,14 @@
     </div>
 
     <div class="image-container">
-        <img src="./maps/crash.jpg" alt="">
-        <img src="./maps/nuketown.jpg" alt="">
-        <img src="./maps/hijacked.jpg" alt="">
-        <img src="./maps/firing range.jpg" alt="">
-        <img src="./maps/killhouse.jpg" alt="">
-        <img src="./maps/crossfire.jpg" alt="">
-        <img src="./maps/hackney yard.png" alt="">
-        <img src="./maps/raid.jpg" alt="">
+        <img src="./maps/crash.jpg" alt="Crash Map">
+        <img src="./maps/nuketown.jpg" alt="Nuketown Map">
+        <img src="./maps/hijacked.jpg" alt="Hijacked Map">
+        <img src="./maps/firing range.jpg" alt="Firing Range Map">
+        <img src="./maps/killhouse.jpg" alt="Killhouse Map">
+        <img src="./maps/crossfire.jpg" alt="Crossfire Map">
+        <img src="./maps/hackney yard.png" alt="Hackney Yard Map">
+        <img src="./maps/raid.jpg" alt="Raid Map">
     </div>
 
     <!--------------------------------Start Character Section------------------------------>
@@ -163,5 +184,12 @@
         </div>
     </section>
     <!----------------------------------------------End Footer Section------------------------------->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js');
+            });
+        }
+    </script>
 </body>
 </html>

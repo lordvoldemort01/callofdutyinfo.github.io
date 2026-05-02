@@ -1,0 +1,21 @@
+{
+  "name": "Call of Duty Info Site",
+  "short_name": "CODM Info",
+  "description": "Information about Call of Duty Mobile guns, maps, and modes.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#111111",
+  "theme_color": "#ffe93c",
+  "icons": [
+    {
+      "src": "codm-logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "codm-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

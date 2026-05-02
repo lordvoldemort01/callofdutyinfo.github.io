@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  web:
+    volumes:
+      - ./callofdutyinfo.github.io:/usr/share/nginx/html
+    environment:
+      - NODE_ENV=development
