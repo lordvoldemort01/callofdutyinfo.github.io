@@ -8,7 +8,7 @@ RUN apk add --no-cache curl
 COPY nginx.conf /etc/nginx/nginx.conf
 
 # Copy the static website files to the Nginx HTML directory
-COPY callofdutyinfo.github.io/ /usr/share/nginx/html/
+COPY . /usr/share/nginx/html/
 
 # Expose port 80
 EXPOSE 80

@@ -4,9 +4,9 @@
   "description": "Call of Duty Info Site",
   "main": "index.html",
   "scripts": {
-    "start": "browser-sync start --server 'callofdutyinfo.github.io' --files 'callofdutyinfo.github.io/**/*'",
-    "lint": "npx htmlhint 'callofdutyinfo.github.io/**/*.html' && npx stylelint 'callofdutyinfo.github.io/**/*.css'",
-    "format": "npx prettier --write 'callofdutyinfo.github.io/**/*.{html,css,js}'"
+    "start": "browser-sync start --server . --files '**/*'",
+    "lint": "npx htmlhint '**/*.html' && npx stylelint '**/*.css'",
+    "format": "npx prettier --write '**/*.{html,css,js}'"
   },
   "devDependencies": {
     "browser-sync": "^3.0.0",

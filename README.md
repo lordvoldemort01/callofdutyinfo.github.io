@@ -36,7 +36,8 @@ docker-compose down
 
 ## Project Structure
 
-- `callofdutyinfo.github.io/`: Contains the static HTML, CSS, and asset files.
+- `index.html`, `*.html`, `*.css`: Core website files located in the root.
+- `images/`, `maps/`, `character/`, `guns video/`, `BR Maps/`: Asset directories.
 - `nginx.conf`: Custom Nginx configuration for optimized serving.
 - `Dockerfile`: Docker image definition.
 - `docker-compose.yml`: Docker Compose configuration for easy management.

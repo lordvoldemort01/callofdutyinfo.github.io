@@ -1,4 +1,18 @@
 .git
+.github
 .gemini
 Dockerfile
 .dockerignore
+docker-compose.yml
+docker-compose.override.yml
+.editorconfig
+.prettierrc
+CONTRIBUTING.md
+GEMINI.md
+LICENSE
+README.md
+package.json
+package-lock.json
+node_modules
+# nginx.conf is needed for the build, so we don't ignore it here
+# even though it will be copied to /usr/share/nginx/html by COPY .
